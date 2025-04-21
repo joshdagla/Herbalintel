@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pkl
+*.h5
+
+# Environment
+.env
+.venv/
+env/
+venv/
+
+# FastAPI logs
+*.log
+
+# Node.js
+node_modules/
+build/
+dist/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# VSCode
+.vscode/
+
+# Docker
+*.dockerfile
