@@ -1,0 +1,62 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+@import "tailwindcss";
+
+/* Apply Poppins font to everything */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9fafb; /* light gray background */
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+@keyframes fadeInSlide {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeInSlide {
+  animation: fadeInSlide 0.8s ease-out forwards;
+}
+
+/* Make buttons look smooth on hover */
+button {
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+}
+
+/* Input fields */
+input, select {
+    outline: none;
+}
+
+/* Smooth image scaling */
+img {
+    display: block;
+    max-width: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+/* Footer text */
+footer {
+    font-size: 0.875rem;
+    color: #999;
+    margin-top: 20px;
+}
+
+/* Add spacing to forms */
+form > * {
+    margin-bottom: 12px;
+}

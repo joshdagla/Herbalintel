@@ -1,17 +1,12 @@
-# 🌿 Herbalintel Frontend
+# React + Vite
 
-This is the modern, minimalistic **React + Vite** frontend for **Herbalintel** — a personalized Ayurvedic diagnosis and recommendation assistant. It provides a sleek user interface where users can enter symptoms and vitals to receive AI-based diagnoses and Ayurvedic medicine suggestions.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
----
+Currently, two official plugins are available:
 
-## ✨ Features
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-- ⚡ Built with **React + Vite** for ultra-fast load and development  
-- 🌿 Clean UI with **Tailwind CSS** and gradient themes  
-- 🔍 Dropdowns for symptom selection with validation  
-- 💊 Displays medicine suggestions with images and descriptions  
-- 💬 Includes **About Us** and **Contact Us** with smooth scrolling  
+## Expanding the ESLint configuration
 
----
-
-
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
