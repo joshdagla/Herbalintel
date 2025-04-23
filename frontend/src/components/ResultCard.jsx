@@ -41,6 +41,9 @@ const ResultCard = ({ result, onReset }) => {
           🔃 Diagnose Again
         </button>
       </div>
+          <p className="mt-4 text-xs text-gray-400 text-center italic">
+      ⚠️Disclaimer: These predictions are just machine predictions and for informational use only. Please consult a qualified medical professional before following any recommendations.
+        </p>
     </div>
   );
 };
