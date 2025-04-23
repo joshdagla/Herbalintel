@@ -1,6 +1,6 @@
-# 🌿 HerbalIntel Frontend
+# 🌿 Herbalintel Frontend
 
-This is the modern, minimalistic **React + Vite** frontend for **HerbalIntel** — a personalized Ayurvedic diagnosis and recommendation assistant. It provides a sleek user interface where users can enter symptoms and vitals to receive AI-based diagnoses and Ayurvedic medicine suggestions.
+This is the modern, minimalistic **React + Vite** frontend for **Herbalintel** — a personalized Ayurvedic diagnosis and recommendation assistant. It provides a sleek user interface where users can enter symptoms and vitals to receive AI-based diagnoses and Ayurvedic medicine suggestions.
 
 ---
 
