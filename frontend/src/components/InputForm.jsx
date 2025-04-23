@@ -93,7 +93,7 @@ const InputForm = ({ onSubmit }) => {
         { name: 'heartRate', placeholder: 'Heart Rate in bpm', icon: heartbeatIcon },
         { name: 'bodyTemp', placeholder: 'Body Temperature in Celsius(C)', icon: thermometerIcon },
         { name: 'oxygenSaturation', placeholder: 'Oxygen Saturation in Percentage(%)', icon: oximeterIcon },
-        { name: 'bloodPressure', placeholder: 'Blood Pressure in mmHg', icon: bloodPressureIcon },
+        { name: 'bloodPressure', placeholder: 'Blood Pressure in mmHg (For eg - 130/40)', icon: bloodPressureIcon },
     ];
 
     return (
